@@ -1216,6 +1216,15 @@
 					</Setter.Value>
 				</Setter>
 			</DataTrigger>
+
+			<DataTrigger Binding="{Binding Guid}" Value="60ea3d34-2019-4255-b79b-ff711b884c79">
+				<Setter Property="OpacityMask">
+					<Setter.Value>
+						<ImageBrush ImageSource="pack://application:,,,/GustavNoesisGUI;component/Assets/JNA_Dhampirs/CC/icons_races/JNA_HalfElf_Dhampir.png"/>
+					</Setter.Value>
+				</Setter>
+			</DataTrigger>
+
 			<!-- EDIT HERE -->
 		</Style.Triggers>
 	</Style>
